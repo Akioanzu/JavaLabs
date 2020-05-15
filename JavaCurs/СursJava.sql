@@ -5,7 +5,7 @@
 -- Dumped from database version 12.2
 -- Dumped by pg_dump version 12.2
 
--- Started on 2020-05-15 22:50:27
+-- Started on 2020-05-15 23:41:57
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -46,6 +46,7 @@ BMV	Немецкий производитель автомобилей, мото
 Mitsubishi	Одна из самых крупных корпораций Японии, занимающихся выпуском автомобилей
 Volkswagen	Немецкая автомобильная марка, одна из многих, принадлежащих концерну Volkswagen AG
 Chrysler	американская автомобилестроительная компания. С начала 2014 года находится под 100 %-ным контролем итальянского автомобилестроительного концерна Fiat
+Hyundai	южнокорейская автомобилестроительная компания. Крупнейший автопроизводитель в стране и четвёртый в мире. Штаб-квартира расположена в Сеуле
 \.
 
 
@@ -58,7 +59,7 @@ ALTER TABLE ONLY public.tbl_dictionary
     ADD CONSTRAINT tbl_dictionary_pkey PRIMARY KEY (keyword);
 
 
--- Completed on 2020-05-15 22:50:27
+-- Completed on 2020-05-15 23:41:58
 
 --
 -- PostgreSQL database dump complete
